@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storage</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/storage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/storage.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <div class="storage_title">
+                <div class="title">
+                    <h2>보관함</h2>
+                </div>
+                <div class="profile">
+                    <a href="mypage.html"><img src="img/icon/profile.png" alt=""></a>
+                </div>
+            </div>
+        </header>
+        <div class="storage">
+            <nav class="tab">
+                <ul>
+                    <li class="on"><button>노래</button></li>
+                    <li><button>아티스트</button></li>
+                    <li><button>앨범</button></li>
+                    <li><button>플리</button></li>
+                    <li><button>뮤비</button></li>
+                </ul>
+            </nav>
+            <div class="tab_content on">
+                <div class="music_play">
+                    <div class="play">
+                        <img src="img/icon/play_b.png" alt="">
+                        <p>PLAY</p>
+                    </div>
+                    <div class="play">
+                        <img src="img/icon/shuffle.png" alt="">
+                        <p>SHUFFLE</p>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <p><img src="img/icon/check-circle.png" alt=""> 10곡</p>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music1.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>strawberry moon</p>
+                            <p>아이유</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img2" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music2.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Either Way</p>
+                            <p>IVE (아이브)</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img3" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img4" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music3.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Get Up</p>
+                            <p>NewJeans</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img5" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img6" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music4.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>OVER</p>
+                            <p>이세계아이돌</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img7" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img8" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music5.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>I Don't Think That I Like Her</p>
+                            <p>Charlie Puth</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img9" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img10" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music6.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>ANTIFRAGILE</p>
+                            <p>LE SSERAFIM (르세라핌)</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img11" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img12" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music7.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Somebody</p>
+                            <p>디오 (D.O.)</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img13" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img14" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music8.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Cupid</p>
+                            <p>FIFTY FIFTY</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img15" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img16" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music9.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Ditto</p>
+                            <p>NewJeans</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img17" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img18" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist_music10.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Allergy</p>
+                            <p>(여자)아이들</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img19" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img20" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_content">
+                <div class="music_play">
+                    <div class="play">
+                        <img src="img/icon/play_b.png" alt="">
+                        <p>PLAY</p>
+                    </div>
+                    <div class="play">
+                        <img src="img/icon/shuffle.png" alt="">
+                        <p>SHUFFLE</p>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <p><img src="img/icon/check-circle.png" alt=""> 5 아티스트</p>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/artist1.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>아이유</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-1" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-2" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/artist2.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>태연</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-3" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-4" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/artist3.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>지민</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-5" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-6" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/artist4.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>윤하</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-7" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-8" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/artist5.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>정국</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-9" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-10" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_content">
+                <div class="music_play">
+                    <div class="play">
+                        <img src="img/icon/play_b.png" alt="">
+                        <p>PLAY</p>
+                    </div>
+                    <div class="play">
+                        <img src="img/icon/shuffle.png" alt="">
+                        <p>SHUFFLE</p>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <p><img src="img/icon/check-circle.png" alt=""> 3 앨범</p>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/album1.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>I feel</p>
+                            <p>(여자)아이들</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-1" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-2" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/album2.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>NewJeans 1st EP 'New Jeans'</p>
+                            <p>NewJeans</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-3" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-4" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/album3.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Golden Age - The 4th Album</p>
+                            <p>NCT</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-5" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-6" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_content">
+                <div class="music_play">
+                    <div class="play">
+                        <img src="img/icon/play_b.png" alt="">
+                        <p>PLAY</p>
+                    </div>
+                    <div class="play">
+                        <img src="img/icon/shuffle.png" alt="">
+                        <p>SHUFFLE</p>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <p><img src="img/icon/check-circle.png" alt=""> 2 플리</p>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist1.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>힘들 때 듣는 국내 힙합 플레이리스트</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-1" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-2" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="music_img">
+                            <img src="img/playlist_music/playlist2.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>지치고 힘든 청춘들을 위한 응원과 위로의 노래</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-5" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-6" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_content">
+                <div class="music_play">
+                    <div class="play">
+                        <img src="img/icon/play_b.png" alt="">
+                        <p>PLAY</p>
+                    </div>
+                    <div class="play">
+                        <img src="img/icon/shuffle.png" alt="">
+                        <p>SHUFFLE</p>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <p><img src="img/icon/check-circle.png" alt=""> 4 뮤직비디오</p>
+                    <div class="playlist_music">
+                        <div class="movie_img">
+                            <img src="img/playlist_music/movie1.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Either Way</p>
+                            <p>IVE(아이브)</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-1" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-2" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="movie_img">
+                            <img src="img/playlist_music/movie2.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>ETA</p>
+                            <p>NewJeans</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-3" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-4" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="movie_img">
+                            <img src="img/playlist_music/movie3.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Bubble</p>
+                            <p>STAYC(스테이씨)</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-5" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-6" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="playlist_music">
+                        <div class="movie_img">
+                            <img src="img/playlist_music/movie4.jpg" alt="">
+                        </div>
+                        <div class="music_txt">
+                            <p>Fast Forward</p>
+                            <p>전소미</p>
+                        </div>
+                        <div class="music_heart">
+                            <a href="#none">
+                                <img id="img1-7" src="img/icon/heart_p_btn.png" alt="">
+                                <img id="img1-8" src="img/icon/heart_p.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- play_music -->
+    <div class="play_music">
+        <a href="play.html">
+            <div class="play">
+                <div class="play_album">
+                    <img src="img/album_play/album_play1.png" alt="">
+                </div>
+                <div class="play_txt">
+                    <p>KIDDING</p>
+                    <p>이세계아이돌</p>
+                </div>
+                <div class="play_icon">
+                    <img id="heart" src="img/icon/heart_w.png" alt="">
+                    <img id="heart_btn" src="img/icon/heart_w_btn.png" alt="">
+                    <img id="pause" src="img/icon/pause-button.png" alt="">
+                    <img id="pause_btn" src="img/icon/play-button.png" alt="">
+                </div>
+            </div>
+        </a>
+    </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer_icon">
+                <div class="home_icon">
+                    <a href="main.html">
+                        <img src="img/icon/home.png" alt="">
+                    </a>
+                </div>
+                <div class="search_icon">
+                    <a href="search.html">
+                        <img src="img/icon/search.png" alt="">
+                    </a>
+                </div>
+                <div class="list_icon">
+                    <a href="playlist.html">
+                        <img src="img/icon/music.png" alt="">
+                    </a>
+                </div>
+                <div class="folder_icon">
+                    <a href="storage.html">
+                        <img src="img/icon/folder_btn.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>

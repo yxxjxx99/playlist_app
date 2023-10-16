@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+.top_img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/* album */
+.album {
+    z-index: 100;
+    text-align: center;
+    margin-top: -20%;
+}
+.album img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+#wrap{
+    padding:50px 30px 30px 30px;
+    box-sizing: border-box;
+}
+/* header */
+.playlist_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+header .back {
+    position: absolute;
+    top: 50px;
+    width: 30px;
+    height: auto;
+}
+header .back img {
+    width: 100%;
+}
+
+/* album_area */
+.album_area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.album_area .album_txt {
+    margin-bottom: 10px;
+}
+.album_area .album_txt p {
+    margin-bottom: 5px;
+}
+.album_area .album_txt p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+}
+.album_area .album_txt p:nth-child(2) {
+    font-size: 15px;
+    font-weight: 500;
+    color: #bbb;
+}
+.album_area .album_txt p:nth-child(2) img {
+    width: 20px;
+    vertical-align: middle;
+    color: #bbb;
+}
+.album_area .album_play img {
+    width: 40px;
+}
+.album_area .album_txt p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 500;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+.album_icon img {
+    width: 20px;
+    margin-right: 10px;
+}
+.album_icon {
+    display: flex;
+    justify-content: space-between;
+}
+.album_icon .right_icon a{
+    display: flex;
+    vertical-align: middle;
+}
+.album_icon .right_icon p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #bbb;
+}
+.album_icon .right_icon img {
+   width: 15px;
+}
+/* music */
+.music {
+    margin-top: 30px;
+}
+.music h2 {
+    font-size: 25x;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.music h2 span {
+    margin: 0 10px;
+    color: #ff2d55;
+}
+.play {
+    display: flex;
+    margin: 30px 0;
+}
+.play .selection {
+    margin-right: 20px;
+}
+.play .selection a {
+    display: flex;
+    align-items: center;
+}
+.play .selection a img {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+.play .selection a p {
+    font-size: 14px;
+}
+.play .listen a {
+    display: flex;
+    align-items: center;
+}
+.play .listen a img {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+.play .listen a p {
+    font-size: 14px;
+}
+.music_list {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.music_box {
+    display: flex;
+    align-items: center;
+}
+.music_box .num {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.music_box .music_txt {
+    margin-left: 15px;
+}
+.music_box .music_txt p:first-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+.music_box .music_txt p:first-child span {
+    font-size: 13px;
+    color: #ff2d55;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.music_box .music_txt p:last-child {
+    font-size: 15px;
+}
+.music_list .music_play {
+    width: 20px;
+    height: 20px;
+}
+
+/* play_music */
+.play_music {
+    background: #ff2d55;
+    padding: 10px 30px;
+    border-radius: 70px 70px 0 0;
+}
+.play_music .play {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.play_music .play .play_album img {
+    width: 100px;
+}
+.play_music .play .play_txt p {
+    margin-left: 10px;
+}
+.play_music .play .play_txt p:first-child {
+    font-size: 20px;
+    font-weight: 500;
+}
+.play_music .play .play_txt p:last-child {
+    font-size: 17px;
+    font-weight: 500;
+    color: #bbb;
+}
+
+.play_music .play .play_icon {
+    position: absolute;
+    right: 30px;
+}
+.play_music .play .play_icon img {
+    width:30px;
+    margin-left: 10px;
+}
+
+/* footer */
+.footer_icon {
+    background: #000;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_icon img {
+    width: 40px;
+}

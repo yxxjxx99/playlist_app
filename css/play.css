@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+/* header */
+#wrap {
+    padding:50px 30px 30px 30px;
+    box-sizing: border-box;
+}
+.playlist_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.playlist_title h2 {
+    font-size: 30px;
+}
+header {
+    margin-bottom: 30px;
+}
+header .back {
+    width: 40px;
+    height: auto;
+    transform:rotate(270deg);
+}
+header .back img {
+    width: 100%;
+}
+
+/* album */
+.album {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.album .txt {
+    margin-bottom: 30px;
+}
+.album .txt .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.album .txt .artist {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #bbb;
+}
+.album .album_img {
+    position: relative;
+    height: 300px;
+}
+.album .album_img .album_circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px;
+}
+.album .album_img .album_square {
+    position: absolute;
+    width: 280px;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+.album .report {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.album .report .like {
+    display: flex;
+    align-items: center;
+}
+.album .report .like p {
+    font-size: 15px;
+}
+.album .report .like img {
+    width: 18px;
+    height:18px;
+    margin-right: 5px;
+}
+.album .report .right {
+    display: flex;
+    align-items: center;
+}
+.album .report .right p {
+    border: 1px solid #bbb;
+    padding: 3px;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.album .report .right img {
+    width: 25px;
+    height:25px;
+    margin-right: 5px;
+}
+.album .lyrics {
+    margin-bottom: 50px;
+}
+.album .lyrics p {
+    font-size: 15px;
+}
+.album .lyrics p:first-child{
+    color: #ff2d55;
+}
+.album .time_bar {
+    margin: 0 auto;
+}
+.album .time_bar .paly_bar{
+    width: 300px;
+    height: 2px;
+    background: #fff;
+    margin-top: -2px;
+}
+.album .time_bar .color_bar {
+    margin: 0 auto;
+    float: right;
+    width: 220px;
+    height: 2px;
+    background: #666;
+}
+.album .time_bar .time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.album .time_bar .time .before {
+    color: rgb(255, 46, 84);
+}
+/* footer */
+footer {
+    margin-bottom: 50px;
+}
+.footer_icon {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_icon .replay_icon img, .before_play_icon img , .after_play_icon img , .shuffle_icon img  {
+    width: 30px;
+}
+.before_play_icon img {
+    transform: rotate(180deg);
+}
+.footer_icon .play_icon img {
+    width: 50px;
+}

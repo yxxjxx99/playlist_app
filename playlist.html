@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playlist</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/playlist.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/playlist.js"></script>
+
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="playlist_title">
+            <div class="title">
+                <h2>플레이 리스트</h2>
+            </div>
+            <div class="profile">
+                <a href="mypage.html"><img src="img/icon/profile.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- palylist -->
+    <div class="playlist">
+        <p>더보기</p>
+        <div class="playlist1">
+            <div class="swiper playlistSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist1.jpg" alt="">
+                    </a>
+                    <p>휴식이 필요할 때 여유롭게 듣는 재즈</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist2.jpg" alt="">
+                    </a>
+                    <p>내일을 비출 밝은 태양을 바라보며</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist3.jpg" alt="">
+                    </a>
+                    <p>힘들 때 듣는 국내 힙합 플레이리스트</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist4.jpg" alt="">
+                    </a>
+                    <p>창밖을 보며 혼자 듣기 좋은 팝 컬렉션</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="today_list">
+        <h2>오늘의 추천곡</h2>
+        <a href="#">더보기</a>
+        <div class="playlist2">
+            <div class="swiper todaySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist5.jpg" alt="">
+                    </a>
+                    <p>지치고 힘든 청춘들을 위한 응원과 위로의 노래</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist6.jpg" alt="">
+                    </a>
+                    <p>가을 산책하면서 듣기 좋은 달달하고 포근한 감성 POP</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist7.jpg" alt="">
+                    </a>
+                    <p>사극 드라마 속 처절해서 애틋하던 발라드 OST</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                        <img src="img/playlist/playlist8.jpg" alt="">
+                    </a> 
+                    <p>따스한 위로를 담은 국내 드라마 OST</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- play_music -->
+    <div class="play_music">
+        <a href="play.html">
+            <div class="play">
+                <div class="play_album">
+                    <img src="img/album_play/album_play1.png" alt="">
+                </div>
+                <div class="play_txt">
+                    <p>KIDDING</p>
+                    <p>이세계아이돌</p>
+                </div>
+                <div class="play_icon">
+                    <img id="heart" src="img/icon/heart_w.png" alt="">
+                    <img id="heart_btn" src="img/icon/heart_w_btn.png" alt="">
+                    <img id="pause" src="img/icon/pause-button.png" alt="">
+                    <img id="pause_btn" src="img/icon/play-button.png" alt="">
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer_icon">
+            <div class="home_icon">
+                <a href="main.html">
+                    <img src="img/icon/home.png" alt="">
+                </a>
+            </div>
+            <div class="search_icon">
+                <a href="search.html">
+                    <img src="img/icon/search.png" alt="">
+                </a>
+            </div>
+            <div class="list_icon">
+                <a href="playlist.html">
+                    <img src="img/icon/music_btn.png" alt="">
+                </a>
+            </div>
+            <div class="folder_icon">
+                <a href="storage.html">
+                    <img src="img/icon/folder.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

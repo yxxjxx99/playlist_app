@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/movie.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/movie.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <div class="playlist_title">
+                <div class="back">
+                    <a href="main.html">
+                        <img src="img/icon/back.png" alt="">
+                    </a>
+                </div>
+                <div class="title">
+                    <h2>MOVIE</h2>
+                </div>
+                <div class="profile">
+                    <a href="search.html"><img src="img/icon/search.png" alt=""></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- movie -->
+        <div class="movie">
+            <div class="movie_tab">
+                <nav class="tab">
+                    <ul>
+                        <li class="on"><button>전체</button></li>
+                        <li><button>국내</button></li>
+                        <li><button>해외</button></li>
+                    </ul>
+                </nav>
+                <div class="tab_content on">
+                    <div class="movie">
+                        <a href="movie1.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie1.jpg" alt="">
+                                    <p class="time">03:57</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">1</p>
+                                    <div class="txt">
+                                        <p class="title">Either Way</p>
+                                        <p class="artist">IVE (아이브)</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">22.1K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">2,114명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie2.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie2.jpg" alt="">
+                                    <p class="time">03:37</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">2</p>
+                                    <div class="txt">
+                                        <p class="title">ETA</p>
+                                        <p class="artist">NewJeans</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">19.5K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">2,161명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie6.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie8.jpg" alt="">
+                                    <p class="time">03:25</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">3</p>
+                                    <div class="txt">
+                                        <p class="title">Light Switch</p>
+                                        <p class="artist">Charlie Puth</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.10</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">32.8K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">3,385명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie7.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie9.jfif" alt="">
+                                    <p class="time">03:18</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">4</p>
+                                    <div class="txt">
+                                        <p class="title">Peaches (Feat. Daniel Caesar & Giveon)</p>
+                                        <p class="artist">Justin Bieber</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.03</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">16.4K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">841명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie3.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie3.jpg" alt="">
+                                    <p class="time">03:51</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">5</p>
+                                    <div class="txt">
+                                        <p class="title">3D (feat. Jack Harlow)</p>
+                                        <p class="artist">정국</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.07</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">37.2K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">1,503명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie8.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie7.jpeg" alt="">
+                                    <p class="time">04:16</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">6</p>
+                                    <div class="txt">
+                                        <p class="title">Dreamers [Music from the FIFA World Cup Qatar 2022 Official Soundtrack]</p>
+                                        <p class="artist">정국</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.10</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">59.7K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">2,736명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie9.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie10.jpg" alt="">
+                                    <p class="time">03:18</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">7</p>
+                                    <div class="txt">
+                                        <p class="title">2002</p>
+                                        <p class="artist">Anne-Marie</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.02</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">45.9K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">1,806명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie4.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie4.jpg" alt="">
+                                    <p class="time">03:20</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">8</p>
+                                    <div class="txt">
+                                        <p class="title">Fast Forward</p>
+                                        <p class="artist">전소미</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">17.3K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">695명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie5.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie5.jpg" alt="">
+                                    <p class="time">03:11</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">9</p>
+                                    <div class="txt">
+                                        <p class="title">Bubble</p>
+                                        <p class="artist">STAYC(스테이씨)</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">16.3K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">614명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie10.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie6.jpg" alt="">
+                                    <p class="time">02:39</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">10</p>
+                                    <div class="txt">
+                                        <p class="title">STAY</p>
+                                        <p class="artist">The Kid LAROI, Justin Bieber</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.08</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">19.7K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">649명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab_content">
+                    <div class="movie">
+                        <a href="movie1.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie1.jpg" alt="">
+                                    <p class="time">03:57</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">1</p>
+                                    <div class="txt">
+                                        <p class="title">Either Way</p>
+                                        <p class="artist">IVE (아이브)</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">22.1K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">2,114명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie2.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie2.jpg" alt="">
+                                    <p class="time">03:37</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">2</p>
+                                    <div class="txt">
+                                        <p class="title">ETA</p>
+                                        <p class="artist">NewJeans</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">19.5K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">2,161명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie3.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie3.jpg" alt="">
+                                    <p class="time">03:51</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">3</p>
+                                    <div class="txt">
+                                        <p class="title">3D (feat. Jack Harlow)</p>
+                                        <p class="artist">정국</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.07</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">37.2K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">1,503명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie4.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie4.jpg" alt="">
+                                    <p class="time">03:20</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">4</p>
+                                    <div class="txt">
+                                        <p class="title">Fast Forward</p>
+                                        <p class="artist">전소미</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">17.3K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">695명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie5.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie5.jpg" alt="">
+                                    <p class="time">03:11</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">5</p>
+                                    <div class="txt">
+                                        <p class="title">Bubble</p>
+                                        <p class="artist">STAYC(스테이씨)</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.05</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">16.3K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">614명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tab_content">
+                    <div class="movie">
+                        <a href="movie6.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie8.jpg" alt="">
+                                    <p class="time">03:25</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">1</p>
+                                    <div class="txt">
+                                        <p class="title">Light Switch</p>
+                                        <p class="artist">Charlie Puth</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.10</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">32.8K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">3,385명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie7.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie9.jfif" alt="">
+                                    <p class="time">03:18</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">2</p>
+                                    <div class="txt">
+                                        <p class="title">Peaches (Feat. Daniel Caesar & Giveon)</p>
+                                        <p class="artist">Justin Bieber</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.03</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">16.4K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">841명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie8.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie7.jpeg" alt="">
+                                    <p class="time">04:16</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">3</p>
+                                    <div class="txt">
+                                        <p class="title">Dreamers [Music from the FIFA World Cup Qatar 2022 Official Soundtrack]</p>
+                                        <p class="artist">정국</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.10</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">59.7K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">2,736명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie9.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie10.jpg" alt="">
+                                    <p class="time">03:18</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">4</p>
+                                    <div class="txt">
+                                        <p class="title">2002</p>
+                                        <p class="artist">Anne-Marie</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.02</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">45.9K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">1,806명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="movie10.html">
+                            <div class="movie_box">
+                                <div class="movie_box_img">
+                                    <img src="img/movie/movie6.jpg" alt="">
+                                    <p class="time">02:39</p>
+                                </div>
+                                <div class="movie_box_txt">
+                                    <p class="score">10</p>
+                                    <div class="txt">
+                                        <p class="title">STAY</p>
+                                        <p class="artist">The Kid LAROI, Justin Bieber</p>
+                                        <div class="txt_bottom">
+                                            <p class="month">2023.10.08</p>
+                                            <p class="play"><img src="img/icon/play.png" alt="">19.7K</p>
+                                            <p class="like"><img src="img/icon/heart_w_btn.png" alt="">649명</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- play_music -->
+    <div class="play_music">
+        <a href="play.html">
+            <div class="play">
+                <div class="play_album">
+                    <img src="img/album_play/album_play1.png" alt="">
+                </div>
+                <div class="play_txt">
+                    <p>KIDDING</p>
+                    <p>이세계아이돌</p>
+                </div>
+                <div class="play_icon">
+                    <img id="heart" src="img/icon/heart_w.png" alt="">
+                    <img id="heart_btn" src="img/icon/heart_w_btn.png" alt="">
+                    <img id="pause" src="img/icon/pause-button.png" alt="">
+                    <img id="pause_btn" src="img/icon/play-button.png" alt="">
+                </div>
+            </div>
+        </a>
+    </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer_icon">
+                <div class="home_icon">
+                    <a href="main.html">
+                        <img src="img/icon/home_btn.png" alt="">
+                    </a>
+                </div>
+                <div class="search_icon">
+                    <a href="search.html">
+                        <img src="img/icon/search.png" alt="">
+                    </a>
+                </div>
+                <div class="list_icon">
+                    <a href="playlist.html">
+                        <img src="img/icon/music.png" alt="">
+                    </a>
+                </div>
+                <div class="folder_icon">
+                    <a href="storage.html">
+                        <img src="img/icon/folder.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

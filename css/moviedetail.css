@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+/* header */
+header {
+    padding:50px 30px 0 30px;
+    box-sizing: border-box;
+}
+.playlist_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+header .back {
+    width: 30px;
+    height: auto;
+}
+header .back img {
+    width: 100%;
+}
+header .title h2 {
+    font-size: 30px;
+}
+header .profile {
+    width: 30px;
+    height: auto;
+}
+header .profile img {
+    width: 100%;
+}
+/* wrap */
+#wrap {
+    padding:0 30px 20px 30px;
+    box-sizing: border-box;
+}
+/* movie */
+.movie iframe {
+    width: 100%;
+    height: 300px;
+}
+/* movie_txt */
+.movie_txt {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.movie_txt .title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.movie_txt .artist {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.movie_txt .movie_txt_box {
+    display: flex;
+    font-size: 13px;
+}
+.movie_txt .movie_txt_box img{
+    width: 13px;
+}
+.movie_txt .movie_txt_box .month{
+    margin-right: 15px;
+}
+.movie_txt .movie_txt_box .play img{
+    margin-right: 5px;
+}
+.movie_txt .tag {
+    display: flex;
+    margin: 20px 0;
+}
+.movie_txt .tag p {
+    background-color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 8px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+.bottom_box {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_box img {
+    width:18px;
+    height: 18px;
+}
+.bottom_box .etc {
+    display: flex;
+}
+.bottom_box .etc p {
+    font-size: 13px;
+}
+.bottom_box .etc .chat {
+    margin-right: 15px;
+}
+.bottom_box .etc .chat a {
+    display: flex;
+}
+.bottom_box .etc .chat a img {
+    margin-right: 5px;
+}
+.bottom_box .etc .like {
+    margin-right: 15px;
+}
+.bottom_box .etc .like a {
+    display: flex;
+}
+.bottom_box .etc .like a img {
+    margin-right: 5px;
+}
+/* another_movie*/
+.another_movie h2 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.another_movie_box {
+    margin-top: 20px;
+}
+.another_movie_box .movie_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.another_movie_box .movie_box .movie_box_img {
+    position: relative;
+}
+.another_movie_box .movie_box .movie_box_img img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius:15px;
+}
+.another_movie_box .movie_box .movie_box_img .time {
+    position: absolute;
+    font-size: 13px;
+    background-color: #0000008b;
+    right: 0; bottom:5px;
+}
+.another_movie_box .movie_box .movie_box_txt {
+    display: flex;
+    margin-left: 20px;
+}
+.another_movie_box .movie_box .movie_box_txt .txt {
+    text-align: left;
+}
+.another_movie_box .movie_box .movie_box_txt .title {
+    font-size:18px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    width:250px;
+}
+.another_movie_box .movie_box .movie_box_txt .artist {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.another_movie_box .movie_box .movie_box_txt .txt_bottom {
+    display: flex;
+    font-size: 12px;
+}
+.another_movie_box .movie_box .movie_box_txt .txt_bottom img {
+    width: 10px;
+    margin-right: 5px;
+}
+.another_movie_box .movie_box .movie_box_txt .txt_bottom .play {
+   margin: 0 10px;
+}
+
+/* footer */
+.footer_icon {
+    background: #000;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_icon img {
+    width: 40px;
+}

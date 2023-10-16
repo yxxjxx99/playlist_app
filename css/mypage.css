@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+/* header */
+#wrap {
+    padding:50px 30px 30px 30px;
+    box-sizing: border-box;
+}
+.playlist_title {
+    width: 100%;
+}
+header {
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+header .back {
+    width: 25px;
+    margin: 10px 0;
+    height: auto;
+    float: right;
+}
+header .back img {
+    width: 100%;
+}
+
+/* information */
+.information {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information .left {
+    display: flex;
+    align-items: center;
+}
+.information .profile img {
+    width: 80px;
+    margin-right: 20px;
+}
+.information .name_box p:first-child {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.information .name_box p:last-child {
+    font-size: 15px;
+    color: #bbb;
+}
+.information .my_information p {
+    font-size: 15px;
+    background: #ff2d55;
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* subscribe */
+.subscribe {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background: #222;
+    padding:30px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.subscribe .buy a, .subscribe .voucher a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe .buy img {
+    width: 30px;
+    margin-right: 10px;
+}
+.subscribe .voucher img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* support */
+.support img {
+    width: 25px;
+}
+.support .top, .support .bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+.support .set, .support .event, .support .customer, .support .notice {
+    width: 160px;
+    height:90px;
+    line-height: 90px;
+    border:1px solid #bbb;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.support .set a, .support .event a, .support .customer a, .support .notice a {
+    color: #bbb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* line */
+.line {
+    width: 100%;
+    height: 1px;
+    background: #bbb;
+    margin: 30px 0;
+}
+
+/* sns */
+.sns {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sns img {
+    width: 40px;
+}
+.sns .facebook , .sns .instagram , .sns .kakaotalk , .sns .twiter{
+    text-align: center;
+    font-size: 13px;
+}
